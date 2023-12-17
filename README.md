@@ -20,19 +20,19 @@ The columns are described as follows:
   1) Read the dataset
   2) Remove handle null values (if any).
   3) Preprocess the Amazon Alexa reviews based on the following parameter:
-    a) Tokenizing words
-    b) Convert words to lower case
-    c) Removing Punctuations
-    d) Removing Stop words
-    e) Stemming or lemmatizing the words
+    a) Tokenizing words  
+    b) Convert words to lower case  
+    c) Removing Punctuations  
+    d) Removing Stop words  
+    e) Stemming or lemmatizing the words  
   4) Transform the words into vectors using
-    a) Count Vectorizer OR
-    b) TF-IDF Vectorizer
+    a) Count Vectorizer OR  
+    b) TF-IDF Vectorizer  
   5) Split data into training and test data.
   6) Apply the following models on the training dataset and generate the predicted value for the test dataset
-    a) Multinomial Naïve Bayes Classification
-    b) Logistic Regression
-    c) KNN Classification
+    a) Multinomial Naïve Bayes Classification  
+    b) Logistic Regression  
+    c) KNN Classification  
   7) Predict the feedback for test data
   8) Compute Confusion matrix and classification report for each of these models
   9) Report the model with the best accuracy
